@@ -1,0 +1,11 @@
+baseURL = "/"
+languageCode = "nl-BE"
+title = "Fablab Lier"
+theme = "ananke"
+DefaultContentLanguage= "nl"
+sectionPagesMenu = "main"
+
+[params]
+  featured_image = "/img/header.jpg"
+  custom_css = ["/css/style.css"]
+  # site_logo = "/img/logo-fablab.png"

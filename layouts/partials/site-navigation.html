@@ -1,0 +1,22 @@
+{{ if .Site.Menus.main }}
+<nav class="topnav" role="navigation">	
+	<ul class="navlist leftnav">
+		{{ if not ( eq .URL "/" ) }}
+		<li>			
+			<a class="homelink" href="/">
+				← Home</a>
+		</li>
+		{{ end }}
+	</ul>
+	<ul class="navlist rightnav">
+		{{ $pageScope := . }}
+		{{ range .Site.Menus.main }}
+		<li class="{{ if eq .URL $pageScope.URL }}active{{ end }}">
+		<a href="{{ .URL }}" title="{{ .Name }} page">
+			{{ .Name }}
+		</a>
+		</li>
+		{{ end }}
+	</ul>
+</nav>
+{{ end }}

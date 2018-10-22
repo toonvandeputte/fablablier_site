@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welkom! on Fablab Lier</title>
+    <link>/</link>
+    <description>Recent content in Welkom! on Fablab Lier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-BE</language>
+    <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lasercutter</title>
+      <link>/cursussen/lasercutter/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/cursussen/lasercutter/</guid>
+      <description>Werken met de lasercutter</description>
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>/cursussen/arduino/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/cursussen/arduino/</guid>
+      <description>Leer je arduino programmeren!</description>
+    </item>
+    
+    <item>
+      <title>Bereikbaarheid</title>
+      <link>/contact/bereikbaarheid/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/bereikbaarheid/</guid>
+      <description> Sint-Ursula Middenschool Fietsenstalling Parkeerbeleid Lier  </description>
+    </item>
+    
+    <item>
+      <title>Huisreglement</title>
+      <link>/gebruik/huisreglement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/gebruik/huisreglement/</guid>
+      <description>Copy-paste that shizzle</description>
+    </item>
+    
+  </channel>
+</rss>

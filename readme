@@ -1,0 +1,6 @@
+Dit is een Hugo site, die dus statisch gegenereerd wordt.
+Previewen kan je door dit in dezelfde dir als deze readme te doen:
+`hugo server`
+Site is dan normaal bereikbaar op http://localhost:1313
+
+Meer info over Hugo op http://gohugo.io

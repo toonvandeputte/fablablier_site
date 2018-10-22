@@ -1,0 +1,101 @@
+
+/** variables **/
+$clr_blue: rgb( 85,211,255 );
+$clr_yellow: rgb( 255,218,0 );
+$clr_red: rgb( 239,80,80 );
+$clr_pink: rgb( 232,142,219 );
+$clr_green: rgb( 146,221,80 );
+
+$clr_dark_blue: rgb( 77,117,219 );
+$clr_dark_purple: rgb( 80,66,80 );
+$clr_dark_orange: rgb( 232,121,0 );
+$clr_dark_green: rgb( 49,183,80 );
+
+
+/** mixins **/
+@mixin visuallyhidden {
+	/* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+a {
+	color: $clr_dark_blue;
+}
+
+.pageheader, .siteheader {	
+	.headerimg {
+		background-size: cover;
+		background-position: top left;
+	}
+	h2 {
+		@include visuallyhidden();
+	}
+}
+
+.pageheader .headerimg {
+	display: block;
+	background-image: url( "/images/header_inner.png" );
+	height: 80px;
+}
+
+.pageheader.siteheader .headerimg {
+	background-image: url( "/images/header_home.png" );
+	height: 240px;
+}
+
+.topnav {
+	display: flex;
+	padding: 2rem;
+	justify-content: space-between;
+	font-size: 20px;
+}
+
+.navlist {	
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display:flex;
+	> li > a{
+		padding-bottom:0.1rem;
+		margin-bottom:0.9rem;
+		text-decoration: none;	
+		&:hover {
+			border-bottom:1px solid $clr_dark_blue;
+		}
+		cursor:pointer;
+	}
+	> li.active a {
+		border-bottom:1px solid $clr_pink; 
+		&:hover {
+			border-bottom:1px solid $clr_dark_blue;
+		}
+	}
+	&.leftnav > li > a {
+		margin-right:2rem;
+	}
+	&.rightnav > li > a {
+		margin-left:2rem;
+	}
+}
+
+.sitefooter {
+	background-size: cover;
+	background-position: top left;
+	background-image: url( "/images/bar.png" );
+	height: 80px;
+}
+.footercontent {
+	background-color:white;
+	margin-left:80px;
+	height: 80px;
+	padding:1rem;
+	display: flex;
+	width:400px;
+	a {
+		text-decoration:none;
+	}
+}
