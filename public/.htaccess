@@ -1,5 +1,0 @@
-AuthName "Fablab Lier testsite"
-AuthType Basic
-AuthUserFile /customers/3/9/a/fablablier.be//httpd.www/.htpasswd
-AuthGroupFile /dev/null 
-require valid-user
