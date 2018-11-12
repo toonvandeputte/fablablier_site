@@ -4,6 +4,7 @@ title = "Fablab Lier"
 theme = "ananke"
 DefaultContentLanguage= "nl"
 sectionPagesMenu = "main"
+summaryLength = 10
 
 [params]
   featured_image = "/img/header.jpg"
