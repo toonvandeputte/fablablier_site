@@ -1,0 +1,13 @@
+<div>
+  {{ if ne .Page.Section .psection  }}
+<span class="f6 db">{{ humanize .Page.Section }}</span>
+{{ end }}
+  <h1 class="f3 near-black">
+    <a href="{{ .Page.URL }}" class="link black dim">
+      {{ .Page.Title }}
+    </a>
+  </h1>
+  <div class="nested-links f5 lh-copy nested-copy-line-height">
+    {{ .Page.Summary  }}
+  </div>
+</div>

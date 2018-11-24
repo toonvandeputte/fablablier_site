@@ -1,0 +1,34 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <article class="center cf pv5 ph3 ph4-ns mw7">
+	  <header>        
+        <h1 class="f1">
+          {{ .Title }}
+        </h1>
+      </header>
+	  <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+			{{- .Content -}}
+			</div>
+  <section class="subitems">
+    <h2>Grote toestellen</h2>
+      {{ range .Paginator.Pages }}
+      {{ if eq (.Param "cat") "groot" }}  
+        <div class="subitem">
+          {{- partial "uitrusting-summary.html" (dict "Page" . "psection" .Section "maanden" $.Site.Data.nederlands.maanden ) -}}
+        </div>
+      {{ end }}
+      {{ end }}
+  </section>
+  <section class="subitems">
+    <h2>Kleine toestellen</h2>
+      {{ range .Paginator.Pages }}
+      {{ if eq (.Param "cat") "klein" }}  
+        <div class="subitem">
+          {{- partial "uitrusting-summary.html" (dict "Page" . "psection" .Section "maanden" $.Site.Data.nederlands.maanden ) -}}
+        </div>
+      {{ end }}
+      {{ end }}
+  </section>
+    {{- template "_internal/pagination.html" . -}}
+  </article>
+{{ end }}

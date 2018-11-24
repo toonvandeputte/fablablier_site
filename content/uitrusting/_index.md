@@ -1,8 +1,7 @@
 ---
-date: "2018-10-07"
 title: "Uitrusting"
 type: "page"
-layout: "single"
+layout: "uitrusting"
 ---
 
 ## Grote toestellen
