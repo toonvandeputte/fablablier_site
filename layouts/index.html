@@ -1,12 +1,15 @@
 {{ define "main" }}
-	<article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-		{{ .Content }}		
+	<article class="pagecontent home f4 mid-gray lh-copy">
+		{{ .Content | markdownify }}
+		<div class="narrow">
+			<h2>Op onze site vind je:</h2>
+			<ul class="blocks">
+			{{ range .Site.Sections }}
+				<li>
+					<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+				</li>
+			{{ end }}
+			</ul>
+		</div>		
 	</article>
-	<ul class="blocks">
-	{{ range .Site.Sections }}
-		<li>
-			<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-		</li>
-	{{ end }}
-	</ul>
 {{ end }}
