@@ -1,9 +1,14 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
-  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-  <main class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    {{- .Content -}}
-  </main>
+<article class="center cf pv5 ph3 ph4-ns mw7">
+    <header>        
+        <h1 class="f1">
+          {{ .Title }}
+        </h1>
+      </header>
+  <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+  {{- .Content -}}
+  </div>
   <section class="subitems">
       {{ range .Paginator.Pages }}
       <div class="subitem">
