@@ -8,13 +8,9 @@
 
     <header class="mt4 w-100">
       <p class="f6 b helvetica tracked">
-          {{/*
-          CurrentSection allows us to use the section title instead of inferring from the folder.
-          https://gohugo.io/variables/page/#section-variables-and-methods
-		  */}}
-		  <a href="/{{ .Section }}">
-		{{with .CurrentSection.Title }}{{ . | upper }}{{end}}
-		</a>
+        <a href="/{{ .Section }}">
+          {{with .CurrentSection.Title }}{{ . | upper }}{{end}}
+        </a>
       </p>
       <h1 class="f1 athelas mb1">
         {{- .Title -}}

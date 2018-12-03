@@ -22,7 +22,7 @@ Een eerste kennismakingsbezoek is gratis. Je betaalt wel voor het materiaal dat 
 		<img src="/images/fotos/IMG_20181112_162438.jpg" alt ="">
 	</span>
 	<span class="image hor">
-		<img src="/images/fotos/IMG_20181112_162525.jpg" alt ="">
+		<img src="/images/uitrusting/lasercutter.jpg" alt ="">
 	</span>
 	<span class="image hor">
 		<img src="/images/fotos/IMG_20181112_162314.jpg" alt ="">
