@@ -16,8 +16,10 @@
         </h1>
         {{ if isset .Params "handleiding" }}<p><a href="/handleidingen/{{ .Params.handleiding }}">Handleiding (PDF)</a></p>{{ end }}
       </header>
-      images: {{ range .Images }}
-        {{ . }}
+      {{ with .Params.featuredimage }}
+      <figure class="featured">
+        <img src="/images/uitrusting/{{ . }}" />
+      </figure>
       {{ end }}
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
         {{ .Content }}

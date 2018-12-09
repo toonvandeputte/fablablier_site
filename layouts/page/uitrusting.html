@@ -6,11 +6,9 @@
           {{ .Title }}
         </h1>
       </header>
-	  <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
-			{{- .Content -}}
-			</div>
-  <section class="subitems">
+  <section class="subitems f4 mid-gray">
     <h2>Grote toestellen</h2>
+    <div class="blocks">
       {{ range .Paginator.Pages }}
       {{ if eq (.Param "cat") "groot" }}  
         <div class="subitem">
@@ -18,9 +16,11 @@
         </div>
       {{ end }}
       {{ end }}
+    </div>
   </section>
-  <section class="subitems">
+  <section class="subitems f4 mid-gray">
     <h2>Kleine toestellen</h2>
+    <div class="blocks">
       {{ range .Paginator.Pages }}
       {{ if eq (.Param "cat") "klein" }}  
         <div class="subitem">
@@ -28,7 +28,11 @@
         </div>
       {{ end }}
       {{ end }}
+    </div>
   </section>
+  <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+			{{- .Content -}}
+  </div>
     {{- template "_internal/pagination.html" . -}}
   </article>
 {{ end }}

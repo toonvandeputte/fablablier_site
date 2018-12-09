@@ -1,13 +1,12 @@
-<div>
-  {{ if ne .Page.Section .psection  }}
+{{ if ne .Page.Section .psection  }}
 <span class="f6 db">{{ humanize .Page.Section }}</span>
 {{ end }}
   <h1 class="f3 near-black">
-    <a href="{{ .Page.URL }}" class="link black dim">
+    <a href="{{ .Page.URL }}">
       {{ .Page.Title }}
     </a>
   </h1>
+  {{ if isset .Page.Params "handleiding" }}<p><a href="/handleidingen/{{ .Page.Params.handleiding }}">Handleiding (PDF)</a></p>{{ end }}
   <div class="nested-links f5 lh-copy nested-copy-line-height">
     {{ .Page.Summary  }}
   </div>
-</div>
