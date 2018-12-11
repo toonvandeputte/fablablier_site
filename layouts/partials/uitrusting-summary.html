@@ -6,7 +6,12 @@
       {{ .Page.Title }}
     </a>
   </h1>
-  {{ if isset .Page.Params "handleiding" }}<p><a href="/handleidingen/{{ .Page.Params.handleiding }}">Handleiding (PDF)</a></p>{{ end }}
+  {{ $linkurl := .Page.URL }}
+  {{ with .Page.Params.featuredimage }}
+    <figure class="featured">
+        <a href="{{ $linkurl }}"><img src="/images/uitrusting/{{ . }}" /></a>
+    </figure>
+  {{ end }}
   <div class="nested-links f5 lh-copy nested-copy-line-height">
     {{ .Page.Summary  }}
   </div>
