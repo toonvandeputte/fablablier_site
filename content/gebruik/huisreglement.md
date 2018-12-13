@@ -2,6 +2,9 @@
 title: "Huisreglement"
 type: "page"
 layout: "single"
+menu: 
+  main:
+    parent: "gebruik"
 ---
 ## Gebruikers
 Iedereen is welkom in het Fablab.

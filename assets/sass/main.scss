@@ -13,6 +13,9 @@ $clr_dark_green: rgb( 49,183,80 );
 
 $margin: 20px;
 
+$bk-nav1: 700px;
+$bk-nav2: 800px;
+
 
 /** mixins **/
 @mixin visuallyhidden {
@@ -46,11 +49,17 @@ h2 {
 	display: block;
 	background-image: url( "/images/header_inner.png" );
 	height: 80px;
+	@media screen and (max-width:600px) {
+		height:60px;
+	}
 }
 
 .pageheader.siteheader .headerimg {
 	background-image: url( "/images/header_home.png" );
 	height: 240px;
+	@media screen and (max-width:600px) {
+		height:100px;
+	}
 }
 
 .topnav {
@@ -58,14 +67,31 @@ h2 {
 	padding: 2rem;
 	justify-content: space-between;
 	font-size: 20px;
+	@media screen and (max-width:$bk-nav1) {
+		display: block;
+		padding: 1rem;
+		padding-bottom: 0;
+	}
 }
+
 
 .navlist {	
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	display:flex;
+	@media screen and (max-width:$bk-nav1) {
+		display: none;
+		padding-bottom:1rem;
+	}
+	>li {
+		@media screen and (max-width:$bk-nav1) {
+			padding:0.3rem 0;
+		}
+	}
 	> li > a{
+		position: relative;
+		z-index:12;
 		padding-bottom:0.1rem;
 		margin-bottom:0.9rem;
 		text-decoration: none;	
@@ -80,12 +106,69 @@ h2 {
 			border-bottom:1px solid $clr_dark_blue;
 		}
 	}
+	&.leftnav {
+		@media screen and (max-width:$bk-nav2) {
+			//display: none;
+		}
+	}
 	&.leftnav > li > a {
 		margin-right:2rem;
 	}
 	&.rightnav > li > a {
 		margin-left:2rem;
+		@media screen and (max-width:$bk-nav1) {
+			margin:0;
+		}
 	}
+}
+
+.subnav {
+	z-index:10;
+	display:none;
+	@media screen and (max-width:$bk-nav1) {
+		display: block;
+	}
+	position:absolute;
+	@media screen and (max-width:$bk-nav1) {
+		position:relative;
+	}
+	list-style: none;
+	padding:0;
+	margin:0;
+	background-color:white;
+	background: linear-gradient(180deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,1) 100%);
+	padding:1rem 2rem;
+	border-bottom: 1px solid $clr_yellow;
+
+	@media screen and (max-width:$bk-nav1) {
+		margin-top:0.5rem;
+		margin-bottom:0.5rem;	
+		padding:0 0.5rem;
+		border-bottom: none;
+		border-left:1px solid $clr_yellow;
+	}
+	li {
+		margin:0;
+		padding:0.3rem 0;
+		a {
+			padding:0;
+			text-decoration: none;
+			&:hover {
+				border-bottom:1px solid $clr_dark_blue;
+			}
+		}
+		&.active a {
+			border-bottom:1px solid $clr_pink; 
+			&:hover {
+				border-bottom:1px solid $clr_dark_blue;
+			}
+		}
+	}
+
+}
+
+.navlist li:hover .subnav {
+	display:block;
 }
 
 .sitefooter {
@@ -111,6 +194,9 @@ h2 {
 }
 .pagecontent {
 	margin-top:100px;
+	@media screen and (max-width:600px) {
+		margin-top: $margin*2;
+	}
 }
 .pagecontent .narrow {
 	max-width: 800px;
@@ -221,5 +307,25 @@ figure.featured {
 	margin: 0;
 	img {
 		margin: 0;
+	}
+}
+
+button.hamburger {
+	background:white;
+	border:none;
+	cursor:pointer;
+	padding: 0;
+	margin: 0;
+	height: 20px;
+	display: block;
+	margin-bottom:1rem;
+	color:$clr_dark_green;
+	svg {
+		margin-right:$margin/2;
+		height:100%;
+		fill:$clr_dark_green;
+	}
+	@media screen and (min-width:($bk-nav1+1px)) {
+		display: none;
 	}
 }

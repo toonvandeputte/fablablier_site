@@ -1,5 +1,12 @@
 {{ if .Site.Menus.main }}
 <nav class="topnav" role="navigation">	
+	<button class="hamburger">
+		<svg viewBox="0 0 20 15" xmlns="http://www.w3.org/2000/svg">
+			<rect x="0" y="0" width="20" height="3" />
+			<rect x="0" y="6" width="20" height="3" />
+			<rect x="0" y="12" width="20" height="3" />
+		</svg>Menu
+	</button>
 	<ul class="navlist leftnav">
 		{{ if not ( eq .URL "/" ) }}
 		<li>			
@@ -15,6 +22,17 @@
 		<a href="{{ .URL }}" title="{{ .Name }} page">
 			{{ .Name }}
 		</a>
+		{{ if .HasChildren }}
+		<ul class="subnav">
+			{{ range .Children }}
+			<li class="{{ if eq .URL $pageScope.URL }}active{{ end }}">
+				<a href="{{ .URL }}" title="{{ .Name }} page">
+				{{ .Name }}
+				</a>
+			</li>
+			{{ end }}
+			</ul>
+			{{ end }}
 		</li>
 		{{ end }}
 	</ul>

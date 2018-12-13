@@ -3,6 +3,9 @@ title: "Openingsuren"
 type: "page"
 layout: "single"
 calendar: true
+menu: 
+  main:
+    parent: "gebruik"
 ---
 
 Het Fablab is normaalgezien **elke maandag open van 16u tot 20u**, behalve op feestdagen en tijdens schoolvakanties.

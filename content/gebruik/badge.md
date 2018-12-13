@@ -2,6 +2,9 @@
 title: "Badge"
 type: "page"
 layout: "single"
+menu: 
+  main:
+    parent: "gebruik"
 ---
 Je badge is je legitimatiebewijs. Ze is voorzien van je naam, en bevat een chip met een unieke identificatie.
 

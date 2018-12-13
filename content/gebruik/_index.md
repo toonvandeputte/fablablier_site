@@ -1,6 +1,6 @@
 ---
 date: "2018-10-07"
-title: "Gebruik van het fablab"
+title: "Gebruik van het Fablab"
 type: "page"
 layout: "single"
 ---
