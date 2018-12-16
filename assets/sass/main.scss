@@ -344,3 +344,33 @@ button.hamburger {
 		display: none;
 	}
 }
+
+.pricelist {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom:$margin*2;
+	td {
+		border-bottom: 1px solid $clr_yellow;
+		padding-top: $margin;
+	}
+	td, th {
+		text-align: left;
+		&:last-of-type {
+			text-align: right;
+		}
+	}
+	th.sectionttl {
+		font-size: 1.5rem;
+		text-align: left;
+		border-top:1px solid $clr_green;
+		border-bottom:none;
+		color:$clr_green;
+		margin-top: $margin;
+		font-weight: bold;
+	}
+	th {
+		font-weight: normal;
+		border-bottom:1px solid $clr_green;
+
+	}
+}
