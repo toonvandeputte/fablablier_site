@@ -18,14 +18,14 @@
 	<ul class="navlist rightnav">
 		{{ $pageScope := . }}
 		{{ range .Site.Menus.main }}
-		<li class="{{ if eq .URL $pageScope.URL }}active{{ end }}">
-		<a href="{{ .URL }}" title="{{ .Name }} page">
+		<li class="{{ if $pageScope.HasMenuCurrent "main" . }}active{{ end }}">
+			<a href="{{ .URL }}" title="{{ .Name }} page">
 			{{ .Name }}
 		</a>
 		{{ if .HasChildren }}
 		<ul class="subnav">
 			{{ range .Children }}
-			<li class="{{ if eq .URL $pageScope.URL }}active{{ end }}">
+			<li class="{{ if $pageScope.IsMenuCurrent "main" . }}active{{ end }}">
 				<a href="{{ .URL }}" title="{{ .Name }} page">
 				{{ .Name }}
 				</a>

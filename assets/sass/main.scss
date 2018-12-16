@@ -35,6 +35,12 @@ h2 {
 	clear: left;
 }
 
+h1.f1 {
+	@media screen and (max-width:600px) {
+		font-size: 2rem;
+	}
+}
+
 .pageheader, .siteheader {	
 	.headerimg {
 		background-size: cover;
@@ -100,7 +106,7 @@ h2 {
 		}
 		cursor:pointer;
 	}
-	> li.active a {
+	> li.active > a {
 		border-bottom:1px solid $clr_pink; 
 		&:hover {
 			border-bottom:1px solid $clr_dark_blue;
@@ -176,6 +182,11 @@ h2 {
 	background-position: top left;
 	background-image: url( "/images/bar.png" );
 	height: 80px;
+	@media screen and (max-width:600px) {
+		padding-top:80px;
+		min-height: 80px;
+	}
+
 }
 .footercontent {
 	background-color:white;
@@ -186,6 +197,10 @@ h2 {
 	width:400px;
 	a {
 		text-decoration:none;
+	}
+	@media screen and (max-width:600px) {
+		margin-left:0;
+		width:auto;
 	}
 }
 
