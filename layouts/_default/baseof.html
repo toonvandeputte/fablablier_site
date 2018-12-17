@@ -18,10 +18,9 @@
     {{ else }}
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
-    {{ with .Params.Calendar }}
         <link media="screen" rel="stylesheet" href="/css/fullcalendar.min.css">
         <link media="print" rel="stylesheet" href="/css/fullcalendar.print.min.css">
-      {{ end }}
+ 
     {{ $stylesheet := .Site.Data.webpack_assets.app }}
     {{ with $stylesheet.css }}
       <link href="{{ relURL (printf "%s%s" "dist/" .) }}" rel="stylesheet">
@@ -53,6 +52,7 @@
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="pb7" role="main">
       {{ block "main" . }}{{ end }}
+      {{ partial "openingsuren.html" . }}
     </main>
     {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
     {{ block "scripts" . }}
@@ -60,15 +60,12 @@
     {{ end }}
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <script src="/js/main.js"></script>
-    
-  {{ with .Params.Calendar }}
-      
        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/locale/nl-be.js"></script>
       <script src="/js/fullcalendar/fullcalendar.min.js"></script>
       <script src='/js/fullcalendar/gcal.min.js'></script>
       <script src="/js/calendar.js"></script>
-  {{ end }}
+
 
   </body>
 </html>

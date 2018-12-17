@@ -20,7 +20,9 @@
         <img src="/images/uitrusting/{{ . }}" />
       </figure>
       {{ end }}
-        {{ if isset .Params "handleiding" }}<p><a href="/handleidingen/{{ .Params.handleiding }}">Handleiding (PDF)</a></p>{{ end }}
+        {{ if isset .Params "supportfiles" }}
+        {{ range .Params.Supportfiles }}<p><a href="/supportfiles/{{ .filename }}">{{ .desc }} ({{ replace (path.Ext .filename) "." "" }})</a></p>{{ end }}
+        {{ end }}
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
         {{ .Content }}
       </div>

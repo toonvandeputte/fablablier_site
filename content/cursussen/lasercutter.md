@@ -11,6 +11,8 @@ menu:
 ---
 De [lasercutter](/uitrusting/lasercutter) is een van de meest veelzijdige toestellen die we in het Fablab hebben. Met verbeelding en een doordacht ontwerp, kan je er bijna alles mee maken.
 
+{{< figure src="/images/fotos/IMG_20181112_180549.jpg" title="Een raket in drie dimensies" >}}
+
 Om je ontwerp te tekenen, kan je het gratis (Open Source) programma [Inkscape](https://inkscape.org/) gebruiken. Maar voor veel mensen is dit een hoge drempel die angst inboezemt.
 
 Daarom richten we deze cursus in, waar je leert hoe je met Inkscape ontwerpen maakt die je met onze lasercutter kan uitsnijden. Je leert de basics van het programma, en de specifieke dingen waar je op moet letten voor de lasercutter.

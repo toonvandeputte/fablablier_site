@@ -21,6 +21,3 @@ Kom je met de wagen, dan is er een beperkt aantal **parkeerplaatsen** op het ter
 
 * **Tel.** 03/4919210
 * **E-mail** info@campussintursula.be
-
-## Openingsuren
-Het fablab is elke maandagavond van 16-20u open, behalve feestdagen en schoolvakanties. [Kijk de specifieke sluitingsdagen na](/gebruik/openingsuren).
