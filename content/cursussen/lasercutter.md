@@ -9,4 +9,8 @@ menu:
   main:
     parent: "cursussen"
 ---
-Aenean gravida ullamcorper diam, eu laoreet urna egestas ac. Integer sed massa et ligula iaculis lobortis. Quisque sed interdum ipsum. Nulla at faucibus orci, sit amet hendrerit ipsum. Nunc at lacinia justo, vel malesuada ante. Suspendisse potenti. Fusce molestie nulla augue, id dapibus est elementum ut. Proin mattis, nunc ac accumsan blandit, orci ipsum gravida tellus, eu gravida ante mauris eu mi. Fusce id diam id ligula maximus dapibus eget quis felis. Maecenas in interdum leo. Pellentesque tempor vehicula urna, ut placerat sapien volutpat non. 
+De [lasercutter](/uitrusting/lasercutter) is een van de meest veelzijdige toestellen die we in het Fablab hebben. Met verbeelding en een doordacht ontwerp, kan je er bijna alles mee maken.
+
+Om je ontwerp te tekenen, kan je het gratis (Open Source) programma [Inkscape](https://inkscape.org/) gebruiken. Maar voor veel mensen is dit een hoge drempel die hen angst inboezemt.
+
+Daarom richten we deze cursus in, waar je leert hoe je met Inkscape ontwerpen maakt die je met onze lasercutter kan uitsnijden. Je leert de basics van het programma, en de specifieke dingen waar je op moet letten voor de lasercutter.

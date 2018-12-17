@@ -9,4 +9,9 @@ menu:
   main:
     parent: "cursussen"
 ---
-Leer je arduino programmeren! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula quam mattis purus volutpat ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae magna justo. Ut sed faucibus nisi, eu condimentum arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus, ligula vel malesuada congue, turpis tellus venenatis est, a rutrum erat tellus dignissim turpis. Morbi laoreet venenatis odio a luctus. Phasellus commodo erat eu malesuada rutrum. Mauris fermentum tortor sed nisl volutpat, eget elementum sem fermentum. 
+De Arduino is een van de populairste microcontrollers die gebruikt wordt om allerlei (inter)actieve projecten te maken.
+Microcontrollers lijken op computers, maar zijn eenvoudiger, zuiniger en beperkter in wat ze kunnen.
+
+Voorbeelden van projecten die mensen met Arduino hebben gemaakt, vind je op [Instructables](https://www.instructables.com/id/Arduino-Projects/).
+
+Tijdens deze korte cursus leer je de basics van Arduino. Je leert welke varianten er beschikbaar zijn, en hoe je de Arduino kan programmeren vanop je PC.

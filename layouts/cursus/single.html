@@ -4,30 +4,30 @@
 {{ end }}
 
 {{ define "main" }}
-  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+  <article class="center cf pv5 ph3 ph4-ns mw7">
 
-    <header class="mt4 w-100">
+    <header>        
       <p class="f6 b helvetica tracked">
         <a href="/{{ .Section }}">
           {{with .CurrentSection.Title }}{{ . | upper }}{{end}}
         </a>
       </p>
-      <h1 class="f1 athelas mb1">
+        <h1 class="f1">
         {{- .Title -}}
       </h1>
       {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
-      <time class="f6 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+      <p>Gaat door op <strong><time class="f6 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
         {{.Date.Day}} {{ index $.Site.Data.nederlands.maanden (sub .Date.Month 1) }} {{.Date.Year}}
-      </time>
+      </time></strong></p>
     </header>
 
-    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+   <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
         {{- .Content -}}
       {{- partial "tags.html" . -}}
       <div class="mt6">
         {{ template "_internal/disqus.html" . }}
       </div>
-    </main>
+    </div>
 
     <aside class="w-30-l mt6-l">
       {{- partial "menu-contextual.html" . -}}
