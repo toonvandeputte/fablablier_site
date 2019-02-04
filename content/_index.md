@@ -4,7 +4,7 @@ is_home: true
 ---
 <div class="narrow">
 <p>
-Fablab Lier opent zijn deuren voor alle geïnteresseerden om hun project te kunnen realiseren. Verschillende toestellen staan ter beschikking. De lasercutter en 3D printer kan je vooraf reserveren.
+Fablab Lier opent zijn deuren voor alle geïnteresseerden om hun project te kunnen realiseren. Verschillende toestellen staan ter beschikking.
 </p>
 <p>
 Een eerste kennismakingsbezoek is gratis. Je betaalt wel voor het materiaal dat je verbruikt.

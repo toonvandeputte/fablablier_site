@@ -38,8 +38,6 @@ Je brengt steeds je [badge](/gebruik/badge) mee als je het Fablab bezoekt, zodat
 Je toegang tot het Fablab kan ingetrokken worden als je je gevaarlijk of onrespectvol gedraagt tegenover andere gebruikers of medewerkers. Racisme, homofobie, intimidatie en geweld worden niet getolereerd. Als je de toegang ontzegd wordt, heb je geen recht op terugbetaling van je lidgeld.
 
 ## Toestellen
-Reservering van een toestel is geen garantie, maar enkel een 'best effort' engagement.
-
 Voor het gebruik van de machines moet iedere gebruiker de juiste competenties hebben. De machines van het Fablab mogen alleen gebruikt worden met toestemming van een Fablab medewerker. 
 
 Lees de instructiefiches en de handleidingen van de te gebruiken machines/toestellen vooraleer ze te gebruiken. Gebruikers kunnen assistentie krijgen van een Fablab medewerker voor het leren gebruiken van een van de toestellen.
