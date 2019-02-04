@@ -16,6 +16,7 @@
 		"name"    : "Golfkarton",
 		"device"  : "Lasercutter",
 		"type"    : "Karton",
+		"price"   : 60,
 		"unit"    : "stuk",
 		"thickness" : "3",
 		"dimensions" : {
