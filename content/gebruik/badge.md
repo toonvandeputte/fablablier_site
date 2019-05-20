@@ -14,10 +14,11 @@ Je **eerste kennismakingsbezoek is sowieso gratis**, een badge schaf je pas daar
 
 Breng bij een bezoek altijd je badge mee, zodat een medewerker hem kan controleren.
 
-##Gegevens gekoppeld aan je badge
+## Gegevens gekoppeld aan je badge
+
 Bij registratie vragen we van jou:
+
 * Je naam
 * Je e-mailadres
-* Je telefoonnummer
 
 Deze gegevens worden enkel gebruikt om je te contacteren ivm je gebruik van het Fablab, bvb bij verlies van je badge. De gegevens worden niet doorgegeven aan derden en worden verwijderd maximum een jaar na het verlopen van je abonnement.

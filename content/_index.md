@@ -32,7 +32,7 @@ Een eerste kennismakingsbezoek is gratis. Je betaalt wel voor het materiaal dat 
 
 <div class="narrow">
 <p>
-Voor een jaar lang toegang, betaal je €5. Hiervoor krijg je een persoonlijke <a href="/gebruik/badge">badge</a>, en mag je elke maandagavond langskomen.
+Voor een jaar lang toegang, betaal je €5. Hiervoor krijg je een persoonlijke <a href="/gebruik/badge">badge</a>, en mag je tijdens de openingsuren langskomen.
 </p>
 <p>
 <img src="/images/SU-logo.png" width="100" class="img-left" alt="Logo Sint-Ursula campus">

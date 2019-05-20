@@ -13,11 +13,6 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     {{ .Hugo.Generator }}
     {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
-    {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
-    {{ else }}
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-    {{ end }}
         <link media="screen" rel="stylesheet" href="/css/fullcalendar.min.css">
         <link media="print" rel="stylesheet" href="/css/fullcalendar.print.min.css">
  
@@ -48,7 +43,7 @@
   </head>
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
-
+    <div class="mainwrapper">
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="pb7" role="main">
       {{ block "main" . }}{{ end }}
@@ -65,7 +60,6 @@
       <script src="/js/fullcalendar/fullcalendar.min.js"></script>
       <script src='/js/fullcalendar/gcal.min.js'></script>
       <script src="/js/calendar.js"></script>
-
-
+  </div>
   </body>
 </html>

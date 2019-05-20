@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cursussen on Fablab Lier</title>
+    <title>Workshops on Fablab Lier</title>
     <link>/cursussen/</link>
-    <description>Recent content in Cursussen on Fablab Lier</description>
+    <description>Recent content in Workshops on Fablab Lier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-BE</language>
-    <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/cursussen/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Lasercutter</title>
-      <link>/cursussen/lasercutter/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      <title>Arduino</title>
+      <link>/cursussen/arduino/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/cursussen/lasercutter/</guid>
-      <description>Werken met de lasercutter</description>
+      <guid>/cursussen/arduino/</guid>
+      <description>De Arduino is een toegankelijke en erg populaire microcontroller, die iedereen kan gebruiken en waar veel toepassingen voor zijn.</description>
     </item>
     
     <item>
-      <title>Arduino</title>
-      <link>/cursussen/arduino/</link>
-      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      <title>Lasercutter</title>
+      <link>/cursussen/lasercutter/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/cursussen/arduino/</guid>
-      <description>Leer je arduino programmeren!</description>
+      <guid>/cursussen/lasercutter/</guid>
+      <description>Deze workshop duurt één uur en wordt twee keer gegeven. Je kan kiezen welke sessie je volgt:</description>
     </item>
     
   </channel>

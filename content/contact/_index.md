@@ -17,7 +17,9 @@ Het **station** van Lier en **bushaltes** zijn op wandelafstand.
 
 Kom je met de wagen, dan is er een beperkt aantal **parkeerplaatsen** op het terrein van de school, de dichtstbijzijnde openbare parking is het Paradeplein.
 
+{{< figure src="/images/kaartje.png" title="Parking en station" >}}
+
 ## Contact opnemen
 
-* **Tel.** 03/4919210
-* **E-mail** info@campussintursula.be
+* **Tel.** (03) 491 92 10
+* **E-mail** <info@fablablier.be>

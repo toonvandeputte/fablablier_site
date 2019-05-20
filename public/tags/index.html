@@ -11,17 +11,17 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.48" />
+    <meta name="generator" content="Hugo 0.55.6" />
+    
+        <link media="screen" rel="stylesheet" href="/css/fullcalendar.min.css">
+        <link media="print" rel="stylesheet" href="/css/fullcalendar.print.min.css">
+ 
     
     
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-    
-
-    
-    
-      <link href="/dist/css/app.e08a958ae3e530145318b6373195c765.css" rel="stylesheet">
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
     
       <link rel="stylesheet" href="/css/style.css">
+      
     
       
     
@@ -35,6 +35,8 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/tags/" />
+
+
 <meta itemprop="name" content="Tags">
 <meta itemprop="description" content="">
 
@@ -45,10 +47,17 @@
   </head>
 
   <body class="ma0 avenir bg-white">
-
+    <div class="mainwrapper">
     <header class="pageheader siteheader">
 	
 <nav class="topnav" role="navigation">	
+	<button class="hamburger">
+		<svg viewBox="0 0 20 15" xmlns="http://www.w3.org/2000/svg">
+			<rect x="0" y="0" width="20" height="3" />
+			<rect x="0" y="6" width="20" height="3" />
+			<rect x="0" y="12" width="20" height="3" />
+		</svg>Menu
+	</button>
 	<ul class="navlist leftnav">
 		
 		<li>			
@@ -61,27 +70,79 @@
 		
 		
 		<li class="">
-		<a href="/contact/" title="Contact page">
+			<a href="/contact/" title="Contact page">
 			Contact
 		</a>
+		
 		</li>
 		
 		<li class="">
-		<a href="/cursussen/" title="Cursussen page">
-			Cursussen
+			<a href="/gebruik/" title="Over het Fablab page">
+			Over het Fablab
 		</a>
+		
+		<ul class="subnav">
+			
+			<li class="">
+				<a href="/gebruik/badge/" title="Badge page">
+				Badge
+				</a>
+			</li>
+			
+			<li class="">
+				<a href="/gebruik/huisreglement/" title="Huisreglement page">
+				Huisreglement
+				</a>
+			</li>
+			
+			<li class="">
+				<a href="/gebruik/wat/" title="Wat is een Fablab? page">
+				Wat is een Fablab?
+				</a>
+			</li>
+			
+			</ul>
+			
 		</li>
 		
 		<li class="">
-		<a href="/gebruik/" title="Gebruik van het fablab page">
-			Gebruik van het fablab
-		</a>
-		</li>
-		
-		<li class="">
-		<a href="/uitrusting/" title="Uitrusting page">
+			<a href="/uitrusting/" title="Uitrusting page">
 			Uitrusting
 		</a>
+		
+		<ul class="subnav">
+			
+			<li class="">
+				<a href="/uitrusting/materialen/" title="Materialen page">
+				Materialen
+				</a>
+			</li>
+			
+			</ul>
+			
+		</li>
+		
+		<li class="">
+			<a href="/cursussen/" title="Workshops page">
+			Workshops
+		</a>
+		
+		<ul class="subnav">
+			
+			<li class="">
+				<a href="/cursussen/arduino/" title="Arduino page">
+				Arduino
+				</a>
+			</li>
+			
+			<li class="">
+				<a href="/cursussen/lasercutter/" title="Lasercutter page">
+				Lasercutter
+				</a>
+			</li>
+			
+			</ul>
+			
 		</li>
 		
 	</ul>
@@ -105,18 +166,36 @@
     </section>
   </div>
 
+      
+<article class="center cf ph3 ph4-ns mw7 openingsuren">
+        <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+
+<h3>Openingsuren van het fablab</h3>
+      <p>Normaalgezien elke eerste en derde maandag van de maand, van 16u tot 20u. Op feestdagen en tijdens schoolvakanties is het fablab gesloten.</p><p>In deze kalender zie je op welke data het fablab open is, en welke medewerkers aanwezig zijn.</p>
+      <div id="calendar"></div></div>
+</article>
     </main>
     <footer class="sitefooter" role="contentinfo">  
 	<div class="footercontent">
-		<a href="/" >
-			&copy; 2018 Fablab Lier - Campus St Ursula Lier
+		
+			&copy; 2019 - <a href="https://www.campussintursula.be/" >Campus St Ursula Lier
 		</a>
 	</div> 
 </footer>
+    
     
 
   <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
 
 
+    
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="/js/main.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/locale/nl-be.js"></script>
+      <script src="/js/fullcalendar/fullcalendar.min.js"></script>
+      <script src='/js/fullcalendar/gcal.min.js'></script>
+      <script src="/js/calendar.js"></script>
+  </div>
   </body>
 </html>

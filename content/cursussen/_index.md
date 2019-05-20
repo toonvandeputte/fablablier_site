@@ -1,5 +1,5 @@
 ---
-title: "Cursussen"
+title: "Workshops"
 type: "page"
 layout: "events"
 ---

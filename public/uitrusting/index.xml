@@ -11,5 +11,95 @@
 	<atom:link href="/uitrusting/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Full Spectrum Lasercutter</title>
+      <link>/uitrusting/lasercutter/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/lasercutter/</guid>
+      <description>Onze lasercutter is een veelzijdig, maar ook complex en duur toestel.</description>
+    </item>
+    
+    <item>
+      <title>XCarve</title>
+      <link>/uitrusting/xcarve/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/xcarve/</guid>
+      <description>De Xcarve laat toe om een ontwerp in hout uit te frezen.</description>
+    </item>
+    
+    <item>
+      <title>DS 460 Figuurzaagmachine</title>
+      <link>/uitrusting/figuurzaag/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/figuurzaag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KGS 80 Afkortzaag</title>
+      <link>/uitrusting/afkortzaag/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/afkortzaag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MBS 240 E Micro Bandzaag</title>
+      <link>/uitrusting/bandzaag/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/bandzaag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MICRO MH 550 Heteluchtpistool</title>
+      <link>/uitrusting/heteluchtpistool/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/heteluchtpistool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TBM 220 Kolomboormachine</title>
+      <link>/uitrusting/kolomboor/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/kolomboor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thermocut</title>
+      <link>/uitrusting/thermocut/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/thermocut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ultimaker 3D printers</title>
+      <link>/uitrusting/ultimaker/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/ultimaker/</guid>
+      <description>Er is een Ultimaker2 en een Ultimaker2 go beschikbaar en PLA filament in verschillende kleuren.</description>
+    </item>
+    
+    <item>
+      <title>Materialen</title>
+      <link>/uitrusting/materialen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/materialen/</guid>
+      <description>Er is in het Fablab een selectie van materialen beschikbaar om je prototypes te bouwen.</description>
+    </item>
+    
   </channel>
 </rss>

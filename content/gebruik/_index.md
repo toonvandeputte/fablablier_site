@@ -1,6 +1,6 @@
 ---
 date: "2018-10-07"
-title: "Gebruik van het Fablab"
+title: "Over het Fablab"
 type: "page"
 layout: "single"
 ---
@@ -13,7 +13,6 @@ We moedigen je aan om je kennis en je projecten online te delen en hierbij te ve
 
 Als je een apparaat wil gebruiken, is het belangrijk dat je de instructies goed naleest en ondersteuning vraagt aan een begeleider. Om je helemaal goed op weg te zetten, kan je terecht in een [cursus](/cursussen/).
 
-* [Openingsuren](openingsuren)
 * [Huisreglement](huisreglement)
-* [Gebruik materialen](materialen)
+* [Wat is een fablab?](wat)
 * [Badge](badge)

@@ -16,13 +16,32 @@
         {{- .Title -}}
       </h1>
       {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
-      <p>Gaat door op <strong><time class="f6 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-        {{.Date.Day}} {{ index $.Site.Data.nederlands.maanden (sub .Date.Month 1) }} {{.Date.Year}}
-      </time></strong></p>
-    </header>
+      
+    </header>   
 
    <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+     <div class="timing">
+       <h3>Wanneer?</h3>
+Gaat door op <strong><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        {{.Date.Day}} {{ index $.Site.Data.nederlands.maanden (sub .Date.Month 1) }} {{.Date.Year}}
+      </time></strong> van <strong> {{ .Params.starttime }}</strong> tot <strong>{{ .Params.endtime }}</strong>
+     </div>
+     {{ if eq .Params.open true }}
+   <div class="inschrijven">
+     <h3>Kostprijs en inschrijven</h3>
+     <p>Deze workshop <strong>kost € {{ .Params.cost }}</strong>. Dit bedrag breng je cash mee naar de workshop.</p>
+     <p><a href="{{ .Params.form }}">Schrijf je hier in</a>. We gaan steeds zorgvuldig om met je gegevens, en deze worden enkel gebruikt om je te contacteren in verband met deze workshop.</p>
+     
+   </div>
+   {{ else }}
+   <div class="inschrijven">
+     <h3>Inschrijven</h3>
+     Inschrijven voor deze workshop is niet (meer) mogelijk.
+   </div>
+   {{ end }}
+   <h3>Over deze workshop</h3>
         {{- .Content -}}
+     
       {{- partial "tags.html" . -}}
       <div class="mt6">
         {{ template "_internal/disqus.html" . }}

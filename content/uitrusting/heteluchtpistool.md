@@ -7,4 +7,5 @@ cat: "klein"
 supportfiles:
   - filename: "Proxxon-Heteluchtpistool_MICRO_MH550.pdf"
     desc: "Handleiding"
+featuredimage: missing.png
 ---

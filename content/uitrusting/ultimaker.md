@@ -6,7 +6,9 @@ layout: "single"
 cat: "groot"
 supportfiles:
   - filename: "Ultimaker-3D-printer_2GO.pdf"
-    desc: "Technische fiche"
+    desc: "Handleiding Ultimaker 2 Go"
+  - filename: "Ultimaker-3D-printer_2.pdf"
+    desc: "Handleiding Ultimaker 2"
 featuredimage: ultimaker.jpg
 ---
 Er is een Ultimaker2 en een Ultimaker2 go beschikbaar en [PLA filament](/gebruik/materialen/) in verschillende kleuren.

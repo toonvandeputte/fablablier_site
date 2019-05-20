@@ -41,6 +41,12 @@ h1.f1 {
 	}
 }
 
+.mainwrapper {
+	max-width: 4200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .pageheader, .siteheader {	
 	.headerimg {
 		background-size: cover;
@@ -298,6 +304,9 @@ h1.f1 {
 .subitems .blocks {
 	display: grid;
 	grid-template-columns: 50% 50%;
+	@media screen and (max-width:500px) {
+		grid-template-columns: 100%;
+	}
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
 	.subitem {
@@ -322,6 +331,17 @@ figure {
 	margin: 0;
 	img {
 		margin: 0;
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		float: none;
+	}
+	figcaption {
+		h4 {
+			margin:5px;
+			font-size: 1rem;
+		}
+		border-bottom:1px solid $clr_yellow;
 	}
 }
 
@@ -377,4 +397,18 @@ button.hamburger {
 
 .openingsuren {
 	border-top:1px solid $clr_pink;
+}
+
+.nested-img p > img {
+    width: auto;
+    max-width: 50%;
+    display: inline;
+	float: left;
+	margin-right: 20px;
+	@media screen and (max-width:600px) {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		float: none;
+	}
 }
