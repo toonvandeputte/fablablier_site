@@ -365,6 +365,18 @@ button.hamburger {
 	}
 }
 
+table {
+	border-collapse: collapse;
+	th {
+		text-align: left;
+	}
+	th, td {
+		padding: $margin;
+		border:1px solid lightgrey;
+		vertical-align: top;
+	}
+}
+
 .pricelist {
 	border-collapse: collapse;
 	width: 100%;

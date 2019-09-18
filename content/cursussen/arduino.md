@@ -1,10 +1,10 @@
 ---
-expirydate: "2019-06-04"
-date: "2019-06-03"
-publishdate: "2019-05-20"
+expirydate: "2019-10-30"
+date: "2019-10-07"
+publishdate: "2019-09-09"
 title: "Arduino"
-starttime: "17u"
-endtime: "19u"
+starttime: "16u"
+endtime: "20u"
 open: true
 form: "https://goo.gl/forms/K0keExShKQnCMA263"
 type: "cursus"
@@ -15,6 +15,11 @@ menu:
     parent: "cursussen"
 ---
 
+Voor deze workshop kan je kiezen uit twee sessies:
+
+* 16u - 18u
+* 18u - 20u
+
 De Arduino is een toegankelijke en erg populaire microcontroller, die iedereen kan gebruiken en waar veel toepassingen voor zijn. Voor een lage kostprijs kan je complexe sturingen maken, als je maar bereid bent wat tijd te investeren. 
 
 In deze workshop helpen we je de eerste stapjes te zetten in de Arduino-wereld, met een hands-on project. We maken een **lanceerinstallatie voor papieren vliegtuigjes** om je te laten kennismaken met de belangrijkste eigenschappen van de Arduino.
@@ -22,7 +27,7 @@ In deze workshop helpen we je de eerste stapjes te zetten in de Arduino-wereld, 
 {{< youtube XehVLro9vlo >}}
 
 ## Benodigd materiaal
-Voor deze workshop heb je wat componenten nodig. Die kan je zelf meebrengen, of **aankopen in het Fablab** tijdens de workshop:
+Voor deze workshop heb je wat componenten nodig. Tijdens de workshop krijg je de nodige materialen ter beschikking. Maar als je je project mee naar huis wil nemen, kan je de componenten zelf meebrengen, of **aankopen in het Fablab** tijdens de workshop:
 
 * Arduino uno	€ 16
 * Breadboard	€ 3,5

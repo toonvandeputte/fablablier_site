@@ -25,6 +25,18 @@
 		}
 	},
 	{
+		"name"    : "Golfkarton",
+		"device"  : "Lasercutter",
+		"type"    : "Karton",
+		"price"   : 100,
+		"unit"    : "stuk",
+		"thickness" : "3",
+		"dimensions" : {
+			"width" : "900",
+			"height" : "600"
+		}
+	},
+	{
 		"name"    : "Multiplex",
 		"device"  : "Lasercutter",
 		"type"    : "multiplex",
@@ -94,6 +106,18 @@
 		"dimensions" : {
 			"width" : "300",
 			"height" : "400"
+		}
+	},
+	{
+		"name"    : "MDF",
+		"device"  : "Lasercutter",
+		"type"    : "mdf",
+		"price"   : 400,
+		"unit"    : "stuk",
+		"thickness" : "4",
+		"dimensions" : {
+			"width" : "900",
+			"height" : "600"
 		}
 	},
 	{

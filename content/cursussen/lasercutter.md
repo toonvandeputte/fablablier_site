@@ -1,10 +1,10 @@
 ---
-expirydate: "2019-05-21"
-date: "2019-05-20"
-publishdate: "2019-05-06"
+expirydate: "2019-10-30"
+date: "2019-09-23"
+publishdate: "2019-09-09"
 title: "Lasercutter"
 starttime: "16u"
-endtime: "19u"
+endtime: "17u"
 open: true
 form: "https://goo.gl/forms/K0keExShKQnCMA263"
 type: "cursus"
@@ -15,12 +15,9 @@ menu:
     parent: "cursussen"
 ---
 
-Deze workshop duurt één uur en wordt twee keer gegeven. Je kan kiezen welke sessie je volgt:
-
-* 16u-17u
-* 18u-19u
-
 De [lasercutter](/uitrusting/lasercutter) is een van de meest veelzijdige toestellen die we in het Fablab hebben. Met verbeelding en een doordacht ontwerp, kan je er bijna alles mee maken.
+
+Na de workshop heb je nog tijd om aan je ontwerp te werken, vragen te stellen en beter kennis te maken met onze lasercutter.
 
 {{< figure src="/images/workshop_lasercutter.jpg" title="Een raket in drie dimensies" >}}
 

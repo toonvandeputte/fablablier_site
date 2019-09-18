@@ -6,27 +6,37 @@
     <description>Recent content in Workshops on Fablab Lier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-BE</language>
-    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/cursussen/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Processing</title>
+      <link>/cursussen/processing/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/cursussen/processing/</guid>
+      <description>Voor deze workshop kan je kiezen uit twee sessies:
+ 16u - 18u 18u - 20u  Wil je leren programmeren?</description>
+    </item>
+    
+    <item>
       <title>Arduino</title>
       <link>/cursussen/arduino/</link>
-      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>/cursussen/arduino/</guid>
-      <description>De Arduino is een toegankelijke en erg populaire microcontroller, die iedereen kan gebruiken en waar veel toepassingen voor zijn.</description>
+      <description>Voor deze workshop kan je kiezen uit twee sessies:</description>
     </item>
     
     <item>
       <title>Lasercutter</title>
       <link>/cursussen/lasercutter/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/cursussen/lasercutter/</guid>
-      <description>Deze workshop duurt één uur en wordt twee keer gegeven. Je kan kiezen welke sessie je volgt:</description>
+      <description>De lasercutter is een van de meest veelzijdige toestellen die we in het Fablab hebben.</description>
     </item>
     
   </channel>
