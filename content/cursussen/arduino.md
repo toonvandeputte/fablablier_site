@@ -40,4 +40,6 @@ Wil je deze componenten **op voorhand zelf aankopen**, dan kan je in Lier terech
 
 Wil je **op voorhand al kennismaken met het project**, dan vind je een [simulatie en schema van het project op Tinkercad](https://www.tinkercad.com/things/9vmo1VkWJBN)
 
+Lanceerbasis en vlieger-vouwinstructies vind je [op GitHub](https://github.com/kurtdevocht/be-a-ninja/tree/master/Brain%20food/Arduino/Crashtmoni).
+
 In deze workshop neem ook jij een hoge vlucht met je eerste Arduino project, en geraak je ongetwijfeld goed gelanceerd om je eigen projecten vleugels te geven.
