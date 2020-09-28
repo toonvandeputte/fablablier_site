@@ -9,6 +9,7 @@
   <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
   {{- .Content -}}
   </div>
+  {{ if .Paginator.Pages }}
   <section class="subitems">
       {{ range .Paginator.Pages }}
       <div class="subitem">
@@ -17,5 +18,12 @@
       {{ end }}
   </section>
     {{- template "_internal/pagination.html" . -}}
+  {{ else }}
+  <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+    <div class="notice">
+      <div class="notice__content">Er zijn momenteel geen workshops gepland.</div>
+    </div>
+  </div>
+  {{ end }}
   </article>
 {{ end }}

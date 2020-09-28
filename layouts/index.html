@@ -5,9 +5,11 @@
 			<h2>Op onze site vind je:</h2>
 			<ul class="blocks">
 			{{ range .Site.Sections }}
+			{{ if (not (eq .Name "Workshops" )) or ( eq .Name "Workshops" and .HasChildren ) }}
 				<li>
 					<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
 				</li>
+			{{ end }}
 			{{ end }}
 			</ul>
 		</div>		

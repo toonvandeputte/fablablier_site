@@ -4,10 +4,7 @@ is_home: true
 ---
 <div class="narrow">
 <p>
-Fablab Lier opent zijn deuren voor alle geïnteresseerden om hun project te kunnen realiseren. Verschillende toestellen staan ter beschikking.
-</p>
-<p>
-Een eerste kennismakingsbezoek is gratis. Je betaalt wel voor het materiaal dat je verbruikt.
+Door de corona-maatregelen is het Fablab momenteel gesloten. We onderzoeken manieren om veilig en beheerst opnieuw de deuren te openen. Van zodra dat het geval is, lees je het hier.
 </p>
 </div>
 
@@ -31,9 +28,6 @@ Een eerste kennismakingsbezoek is gratis. Je betaalt wel voor het materiaal dat 
 
 
 <div class="narrow">
-<p>
-Voor een jaar lang toegang, betaal je €5. Hiervoor krijg je een persoonlijke <a href="/gebruik/badge">badge</a>, en mag je tijdens de openingsuren langskomen.
-</p>
 <p>
 <img src="/images/SU-logo.png" width="100" class="img-left" alt="Logo Sint-Ursula campus">
 Fablab Lier wordt uitgebaat door campus Sint-Ursula, in Lier. 
