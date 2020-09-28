@@ -2,11 +2,11 @@
 <span class="f6 db">{{ humanize .Page.Section }}</span>
 {{ end }}
   <h1 class="f3 near-black">
-    <a href="{{ .Page.URL }}">
+    <a href="{{ .Page.Permalink }}">
       {{ .Page.Title }}
     </a>
   </h1>
-  {{ $linkurl := .Page.URL }}
+  {{ $linkurl := .Page.Permalink }}
   {{ with .Page.Params.featuredimage }}
     <figure class="featured">
         <a href="{{ $linkurl }}"><img src="/images/uitrusting/{{ . }}" /></a>

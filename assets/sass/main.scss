@@ -411,6 +411,18 @@ table {
 	border-top:1px solid $clr_pink;
 }
 
+.notice {
+	background-color: $clr_yellow;
+	padding:20px;
+	margin-top:50px;
+}
+
+.notice__content {
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .nested-img p > img {
     width: auto;
     max-width: 50%;
