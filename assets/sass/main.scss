@@ -421,6 +421,14 @@ table {
 	max-width: 800px;
 	margin-right: auto;
 	margin-left: auto;
+	color:black;
+}
+
+.notice__content a {
+	color:black;
+	&:hover {
+		color:black;
+	}
 }
 
 .nested-img p > img {
