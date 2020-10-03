@@ -6,19 +6,21 @@ menu:
   main:
     parent: "gebruik"
 ---
-## Gebruikers
+## Voor wie?
 Iedereen is welkom in het Fablab.
 We onderscheiden volgende groepen externe gebruikers:
 
 * individuele gebruikers
 * klassen (leerkracht met leerlingen) van het basisonderwijs
 
+### Voor scholen
 Het Fablab wordt tijdens de schooluren gebruikt door leerlingen
 en leerkrachten van de  school. Dan is het dus niet toegankelijk voor het publiek.
 
 Voor klassen van het basisonderwijs zijn er aparte open dagen voorzien. Gelieve hiervoor [contact](/contact) op te nemen.
 
-Op maandagavond, tussen 16u en 20u, is het Fablab normaalgezien toegankelijk voor het publiek. Om precies te weten wanneer het Fablab open is, kijk je de [openingsuren](/gebruik/openingsuren) na.
+### Voor individuele bezoekers
+Tweewekelijks op maandagavond, tussen 16u en 20u, is het Fablab normaalgezien toegankelijk voor het publiek. Om precies te weten wanneer het Fablab open is, kijk je de [openingsuren](/gebruik/openingsuren) na.
 
 In het Fablab is geen bergruimte voorzien voor het opbergen van persoonlijke creaties, gereedschap, materiaal en/of grondstoffen. Je neemt je project dus altijd terug mee naar huis en laat het niet achter.
 

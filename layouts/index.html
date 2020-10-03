@@ -5,7 +5,7 @@
 			<h2>Op onze site vind je:</h2>
 			<ul class="blocks">
 			{{ range .Site.Sections }}
-			{{ if (not (eq .Name "Workshops" )) or ( eq .Name "Workshops" and .HasChildren ) }}
+			{{ if or (not (eq .Name "Workshops" )) ( and ( eq .Name "Workshops") (.IsSection) ) }}
 				<li>
 					<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
 				</li>

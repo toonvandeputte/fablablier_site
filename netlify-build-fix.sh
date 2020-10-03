@@ -1,7 +1,7 @@
 #!/bin/bash
 
 HUGO_FLAVOUR="hugo_extended"
-HUGO_VERSION="0.48"
+HUGO_VERSION="0.75.1"
 
 [ -z "${NF_IMAGE_VERSION}" ] && exit 0
 

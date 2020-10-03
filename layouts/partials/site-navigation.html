@@ -18,7 +18,7 @@
 	<ul class="navlist rightnav">
 		{{ $pageScope := . }}
 		{{ range .Site.Menus.main }}
-		{{ if (not (eq .Name "Workshops" )) or ( eq .Name "Workshops" and .HasChildren ) }}
+		{{ if or (not (eq .Name "Workshops" )) ( and ( eq .Name "Workshops") (.HasChildren) ) }}
 		<li class="{{ if $pageScope.HasMenuCurrent "main" . }}active{{ end }}">
 			<a href="{{ .URL }}" title="{{ .Name }} page">
 			{{ .Name }}
