@@ -4,7 +4,7 @@ is_home: true
 ---
 <div class="narrow">
 <p>
-Door de corona-maatregelen is het Fablab momenteel gesloten. We onderzoeken manieren om veilig en beheerst opnieuw de deuren te openen. Van zodra dat het geval is, lees je het hier.
+Door de corona-maatregelen is het Fablab momenteel gesloten.
 </p>
 </div>
 
