@@ -20,9 +20,7 @@ en leerkrachten van de  school. Dan is het dus niet toegankelijk voor het publie
 Voor klassen van het basisonderwijs zijn er aparte open dagen voorzien. Gelieve hiervoor [contact](/contact) op te nemen.
 
 ### Voor individuele bezoekers
-Tweewekelijks op maandagavond, tussen 16u en 20u, is het Fablab normaalgezien toegankelijk voor het publiek, **enkel met <a href="https://calendly.com/fablablier/fablab-sessie" target="_blank">reservering</a>**. Om precies te weten wanneer het Fablab open is, kijk je de [openingsuren](/gebruik/openingsuren) na.
-
-Er gelden momenteel specifieke [corona-maatregelen](#corona-maatregelen). Lees ze zorgvuldig en volg ze goed op.
+Tweewekelijks op maandagavond, tussen 16u en 20u, is het Fablab normaalgezien toegankelijk voor het publiek. Om precies te weten wanneer het Fablab open is, kijk je de [openingsuren](/gebruik/openingsuren) na.
 
 In het Fablab is geen bergruimte voorzien voor het opbergen van persoonlijke creaties, gereedschap, materiaal en/of grondstoffen. Je neemt je project dus altijd terug mee naar huis en laat het niet achter.
 
@@ -89,20 +87,6 @@ Eten en drinken is niet toegestaan bij de machines.
 Er heerst een absoluut rookverbod op het volledige schoolterrein. Dus ook in het Fablab.
 
 Er is water en zeep in het Fablab, was je handen na het werken, om het Fablab netjes te houden. Met name als je met giftige producten, zoals loodhoudend soldeer, hebt gewerkt, is het belangrijk je handen te wassen.
-
-## Corona-maatregelen
-Om tijdens de corona-pandemie het Fablab te kunnen openen, gelden deze specifieke maatregelen:
-
-* Het aantal bezoekers is beperkt tot 4 per tijdslot, resp. van 16u tot 17u50 en van 18u10 tot 20u. Hiervoor is [reserveren](https://calendly.com/fablablier/fablab-sessie) verplicht, voor *elke* bezoeker.
-* Bezoekers worden opgehaald aan de ingang, en moeten zich stipt aan hun tijdsslot houden.
-* Bezoekers brengen hun eigen drank en eventueel snack mee, en delen deze onder geen beding.
-* Bij reserveren is het invullen van een correct e-mailadres en telefoonnumer verplicht, in verband met contactopsporing.
-* In het schoolgebouw geldt een duidelijk aangegeven circulatieplan. Dit moet gerespecteerd worden.
-* De grote toestellen (lasercuter, 3D-printer…) worden enkel bediend door 1 van de organisatoren, er worden geen eigen laptops aangesloten.
-* Er is geen garantie dat bezoekers een bepaald toestel kunnen gebruiken. Een reservering geldt voor het Fablab.
-* Gebruikers moeten hun handen ontsmetten bij het betreden en verlaten van het lokaal, hiervoor is handgel voorzien.
-* In het Fablab moeten deelnemers altijd een mondmasker dragen. Wie geen mondmasker heeft, kan er een kopen in het Fablab.
-* Er is 1,5m afstand tussen de zitplaatsen in het lokaal. Gebruikers mogen tijdens het gebruik van het Fablab niet van zitplaats veranderen.
 
 ## Verbruiksmateriaal
 
