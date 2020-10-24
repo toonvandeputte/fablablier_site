@@ -101,7 +101,7 @@ Om tijdens de corona-pandemie het Fablab te kunnen openen, gelden deze specifiek
 * De grote toestellen (lasercuter, 3D-printer…) worden enkel bediend door 1 van de organisatoren, er worden geen eigen laptops aangesloten.
 * Er is geen garantie dat bezoekers een bepaald toestel kunnen gebruiken. Een reservering geldt voor het Fablab.
 * Gebruikers moeten hun handen ontsmetten bij het betreden en verlaten van het lokaal, hiervoor is handgel voorzien.
-* In het Fablab moeten deelnemers altijd een mondmasker dragen. Wie geen mondmasker heeft, kan er een kopen in het Fablab.
+* In het Fablab moeten deelnemers altijd een mondmasker dragen.
 * Er is 1,5m afstand tussen de zitplaatsen in het lokaal. Gebruikers mogen tijdens het gebruik van het Fablab niet van zitplaats veranderen.
 
 ## Verbruiksmateriaal
