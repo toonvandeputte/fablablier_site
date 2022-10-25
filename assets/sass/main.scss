@@ -62,7 +62,7 @@ h1.f1 {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 80px;
-        width: 1600px;
+        max-width: 1600px;
         padding-left:80px;
         height: 240px;
         margin-left: auto;
@@ -242,7 +242,7 @@ h1.f1 {
 		padding-top:80px;
 		min-height: 80px;
 	}
-	@media screen and (min-width:$maxw) {
+	@media screen and (min-width:$maxw2) {
 		background-size: contain;
 	}
 
