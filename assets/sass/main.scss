@@ -15,6 +15,9 @@ $margin: 20px;
 
 $bk-nav1: 700px;
 $bk-nav2: 800px;
+$maxw: 1600px;
+$maxw2: 1680px;
+$headerw: 1120px;
 
 
 /** mixins **/
@@ -53,25 +56,67 @@ h1.f1 {
 		background-position: top left;
 	}
 	h2 {
-		@include visuallyhidden();
+		// @include visuallyhidden();
+        color:transparent;
+        background-image: url('/images/header_logo.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 80px;
+        width: 1600px;
+        padding-left:80px;
+        height: 240px;
+        margin-left: auto;
+        margin-right: auto;
 	}
 }
 
 .pageheader .headerimg {
 	display: block;
-	background-image: url( "/images/header_inner.png" );
+	background-image: url( "/images/header_inner_bg.png" );
 	height: 80px;
+    background-position: left;
+    // border-bottom: none;
+    text-decoration: none;
+    // background-size: contain;
+    @media screen and (min-width:$maxw2) {
+        background-size: contain;
+        background-position: center;
+    }
+    h2.logo_small {
+        color: transparent;
+        background-image: url('/images/header_logo_inner.png');
+        height: 100%;
+        // @include visuallyhidden();
+    }
 	@media screen and (max-width:600px) {
 		height:60px;
 	}
 }
 
 .pageheader.siteheader .headerimg {
-	background-image: url( "/images/header_home.png" );
+    transition-property: background-position;
+    transition-duration: 0.5s;
+	background-size: cover;
+	@media screen and (min-width:$headerw) {
+	    background-size: contain;
+	}
+	// background-size: contain;
+    background-position: left;
+	background-image: url( "/images/header_pattern.png" );
 	height: 240px;
 	@media screen and (max-width:600px) {
+	background-image: url( "/images/header_home.png" );
 		height:100px;
 	}
+	@media screen and (min-width:$maxw) {
+        background-position: center;
+	}
+}
+
+.pageheader.siteheader h2 {
+	@media screen and (max-width:600px) {
+        @include visuallyhidden();
+    }
 }
 
 .topnav {
@@ -79,10 +124,15 @@ h1.f1 {
 	padding: 2rem;
 	justify-content: space-between;
 	font-size: 20px;
+    max-width:$maxw;
 	@media screen and (max-width:$bk-nav1) {
 		display: block;
 		padding: 1rem;
 		padding-bottom: 0;
+	}
+	@media screen and (min-width:$maxw) {
+		margin-left: auto;
+        margin-right: auto;
 	}
 }
 
@@ -191,6 +241,9 @@ h1.f1 {
 	@media screen and (max-width:600px) {
 		padding-top:80px;
 		min-height: 80px;
+	}
+	@media screen and (min-width:$maxw) {
+		background-size: contain;
 	}
 
 }
