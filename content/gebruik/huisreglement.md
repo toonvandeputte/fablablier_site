@@ -20,7 +20,7 @@ en leerkrachten van de  school. Dan is het dus niet toegankelijk voor het publie
 Voor klassen van het basisonderwijs zijn er aparte open dagen voorzien. Gelieve hiervoor [contact](/contact) op te nemen.
 
 ### Voor individuele bezoekers
-Tweewekelijks op maandagavond, tussen 16u en 20u, is het Fablab normaalgezien toegankelijk voor het publiek. Om precies te weten wanneer het Fablab open is, kijk je de [openingsuren](/gebruik/openingsuren) na.
+Tweewekelijks op maandagavond, tussen 16u en 20u, is het Fablab normaalgezien toegankelijk voor het publiek. **Het Fablab is momenteel nog gesloten**. We werken er hard aan om spoedig opnieuw toegankelijk te zijn voor het publiek. Van zodra we weer open gaan, lees je het op deze site.
 
 In het Fablab is geen bergruimte voorzien voor het opbergen van persoonlijke creaties, gereedschap, materiaal en/of grondstoffen. Je neemt je project dus altijd terug mee naar huis en laat het niet achter.
 
