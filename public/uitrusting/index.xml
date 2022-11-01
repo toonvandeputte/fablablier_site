@@ -6,14 +6,23 @@
     <description>Recent content in Uitrusting on Fablab Lier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-BE</language>
-    <lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="/uitrusting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/uitrusting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mayku Formbox vacuformer</title>
+      <link>/uitrusting/vacuformer/</link>
+      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/vacuformer/</guid>
+      <description>Met de vacuformer kan je op basis van een vorm holle objecten (type blisterverpakking) maken.</description>
+    </item>
+    
     <item>
       <title>Full Spectrum Lasercutter</title>
       <link>/uitrusting/lasercutter/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/uitrusting/lasercutter/</guid>
-      <description>Onze lasercutter is een veelzijdig, maar ook complex en duur toestel.</description>
+      <description>Met de lasercutter kan je uit vlak plaatmateriaal complexe vormen snijden.</description>
     </item>
     
     <item>
@@ -85,7 +94,7 @@
       <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/uitrusting/ultimaker/</guid>
-      <description>Er is een Ultimaker2 en een Ultimaker2 go beschikbaar en PLA filament in verschillende kleuren.</description>
+      <description>De Ultimakers zijn 3D-printers waarmee je driedimensionale objecten in kunststof kan maken.</description>
     </item>
     
     <item>

@@ -20,11 +20,16 @@
         <img src="/images/uitrusting/{{ . }}" />
       </figure>
       {{ end }}
-        {{ if isset .Params "supportfiles" }}
-        {{ range .Params.Supportfiles }}<p><a href="/supportfiles/{{ .filename }}">{{ .desc }} ({{ replace (path.Ext .filename) "." "" }})</a></p>{{ end }}
-        {{ end }}
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
         {{ .Content }}
+
+      {{ if isset .Params "supportlinks" }}
+        <h3>Documentatie en ondersteuning</h3>
+        <ul>
+        {{ range .Params.Supportlinks }}
+        <li><a href="{{ if .filename }}/supportfiles/{{ .filename }}{{else if .url}}{{ .url }}{{ end }}">{{ .desc }}{{ if .filename }} ({{ replace (path.Ext .filename) "." "" }}){{ end }}</a></li>{{ end }}
+        </ul>
+      {{ end }}
       </div>
     </article>
 {{ end }}

@@ -4,7 +4,7 @@ title: "MBS 240 E Micro Bandzaag"
 type: "uitrusting"
 layout: "single"
 cat: "klein"
-supportfiles:
+supportlinks:
   - filename: "Proxxon-MicroBandzaag_MBS240E.pdf"
     desc: "Handleiding"
 featuredimage: bandzaag.jpg

@@ -5,6 +5,7 @@ theme = "ananke"
 DefaultContentLanguage= "nl"
 sectionPagesMenu = "main"
 summaryLength = 10
+paginate = 100
 
 [params]
   featured_image = "/img/header.jpg"

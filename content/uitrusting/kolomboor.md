@@ -4,7 +4,7 @@ title: "TBM 220 Kolomboormachine"
 type: "uitrusting"
 layout: "single"
 cat: "klein"
-supportfiles:
+supportlinks:
   - filename: "Proxxon-Tafelboormachine_TBM220.pdf"
     desc: "Handleiding"
 featuredimage: kolomboor.jpg

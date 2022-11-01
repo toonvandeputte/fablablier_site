@@ -4,7 +4,7 @@ title: "Thermocut"
 type: "uitrusting"
 layout: "single"
 cat: "klein"
-supportfiles:
+supportlinks:
   - filename: "Proxxon-THERMOCUT.pdf"
     desc: "Handleiding"
 featuredimage: thermocut.jpg

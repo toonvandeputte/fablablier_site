@@ -4,7 +4,7 @@ title: "MICRO MH 550 Heteluchtpistool"
 type: "uitrusting"
 layout: "single"
 cat: "klein"
-supportfiles:
+supportlinks:
   - filename: "Proxxon-Heteluchtpistool_MICRO_MH550.pdf"
     desc: "Handleiding"
 featuredimage: missing.png
