@@ -4,6 +4,9 @@ title: "XCarve"
 type: "uitrusting"
 layout: "single"
 cat: "groot"
+supportlinks:
+  - url: "https://docs.google.com/document/d/1QTIe1c3JYi2SpnsE0QBoQMXundEAwXx1_p9uG2jHJuc/edit?usp=sharing"
+    desc: "Handleiding en eerste project voor de XCarve."
 featuredimage: xcarve.jpg
 ---
 De Xcarve laat toe om een ontwerp in hout uit te frezen.
