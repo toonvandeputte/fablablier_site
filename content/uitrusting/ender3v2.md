@@ -1,6 +1,6 @@
 ---
 publishdate: "2022-11-21"
-title: "Ender 3 v2"
+title: "Ender 3 v2 3D printer"
 type: "uitrusting"
 layout: "single"
 cat: "groot"
