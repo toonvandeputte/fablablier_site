@@ -5,8 +5,8 @@ type: "uitrusting"
 layout: "single"
 cat: "groot"
 supportlinks:
-  - filename: "FullSpectrum-LaserCutter.pdf"
-    desc: "Tutorial"
+  - url: "https://docs.google.com/document/d/1mydwFBSTY8gPL0EAZjAgiVE-VzGWdre3sjDqMsyVf00/edit?usp=sharing"
+    desc: "Handleiding en eerste project"
 featuredimage: lasercutter.jpg
 ---
 Met de lasercutter kan je uit vlak plaatmateriaal complexe vormen snijden.

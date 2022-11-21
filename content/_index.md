@@ -4,7 +4,7 @@ is_home: true
 ---
 <div class="narrow">
 <p>
-Door de corona-maatregelen is het Fablab momenteel gesloten.
+Het FabLab is momenteel enkel geopend voor leerlingen van Campus Sint-Ursula en hun ouders.
 </p>
 </div>
 
