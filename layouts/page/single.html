@@ -8,10 +8,6 @@
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
         {{ .Content }}
-      {{ if eq .Title "Materialen" }} 
-      <h2>Prijslijst beschikbare materialen</h2>
-        {{ partial "mat-prijslijst.html" .}}
       </div>
-      {{ end }}
     </article>
 {{ end }}

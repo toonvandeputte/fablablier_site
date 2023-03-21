@@ -18,7 +18,7 @@ Je mag geen meegebrachte materialen snijden op onze lasercutter, kijk voor meer 
 ### Nuttige snij-instellingen
 
 | Bewerking | Materiaal/soort | Kracht (power) | Snelheid (speed) | 
-| ----- | ----- | ----- | ----- | ----- | 
+| ----- | ----- | ----- | ----- |
 | Snijden | Berken multiplex 6mm | 70 | 40 | 
 | Snijden | Populieren multiplex 4mm | 40 | 75 | 
 | Snijden | Beuken multiplex 6mm | 80 | 20 | 
