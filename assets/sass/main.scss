@@ -477,6 +477,16 @@ table {
 	background-color: $clr_yellow;
 	padding:20px;
 	margin-top:50px;
+    &.notice--pink {
+        background-color: $clr_pink;
+    }
+    &.notice--red {
+        background-color: $clr_red;
+        color:white;
+    }
+    p {
+        margin: 0
+    }
 }
 
 .notice__content {

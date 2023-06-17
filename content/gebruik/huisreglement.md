@@ -20,11 +20,13 @@ en leerkrachten van de  school. Dan is het dus niet toegankelijk voor het publie
 Voor klassen van het basisonderwijs zijn er aparte open dagen voorzien. Gelieve hiervoor [contact](/contact) op te nemen.
 
 ### Voor individuele bezoekers
-Tweewekelijks op maandagavond, tussen 16u en 20u, is het Fablab geopend voor leerlingen van Campus Sint-Ursula en hun ouders. We werken er hard aan om spoedig opnieuw toegankelijk te zijn voor het brede publiek. Van zodra dat het geval is, lees je het op deze site.
+Tweewekelijks op maandagavond, tussen 16u en 20u, is het Fablab geopend voor het brede publiek. 
 
 In het Fablab is geen bergruimte voorzien voor het opbergen van persoonlijke creaties, gereedschap, materiaal en/of grondstoffen. Je neemt je project dus altijd terug mee naar huis en laat het niet achter.
 
 Iedereen die gebruik maakt van het Fablab, gaat akkoord met het [Fab Lab Charter](http://fab.cba.mit.edu/about/charter/)
+
+Een eerste kennismakingsbezoek (je mag dan nog geen toestellen gebruiken) is gratis, daarna moet je een [badge](/gebruik/badge) aankopen, die een jaar geldig is.
 
 ## Toegang
 Het Fablab is gehuisvest in het schoolgebouw van Sint-Ursulamiddenschool, Kanunnik Davidlaan 15, 2500 Lier 

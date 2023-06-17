@@ -41,7 +41,7 @@
     <div class="mainwrapper">
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="pb7" role="main">
-      {{/*  {{ partial "notice.html" }}  */}}
+      {{ partial "notice.html" }}
       {{ block "main" . }}{{ end }}
       <a name="openingsuren"></a>
       {{ partial "openingsuren.html" . }}

@@ -29,7 +29,8 @@ Gaat door op <strong><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00"
      {{ if eq .Params.open true }}
    <div class="inschrijven">
      <h3>Kostprijs en inschrijven</h3>
-     <p>Deze workshop <strong>kost € {{ .Params.cost }}</strong>. Dit bedrag breng je cash mee naar de workshop.</p>
+
+    <p>Deze workshop <strong>kost € {{ .Params.cost }}</strong> voor niet-leden, lidkaart voor 1 kalenderjaar inbegrepen. {{if .Params.cost_members }}Voor leden is de kost <strong>€ {{ .Params.cost_members }}</strong>{{ end }}. Dit bedrag breng je cash mee naar de workshop.</p>
      <p><a href="{{ .Params.form }}">Schrijf je hier in</a>. We gaan steeds zorgvuldig om met je gegevens, en deze worden enkel gebruikt om je te contacteren in verband met deze workshop.</p>
      
    </div>

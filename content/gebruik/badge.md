@@ -10,7 +10,7 @@ Je badge is je legitimatiebewijs. Ze is voorzien van je naam, en bevat een chip 
 
 Door €5 te betalen, of deel te nemen aan een betaalde [cursus](/cursussen), krijg je een badge en een jaar lang toegang tot het Fablab.
 
-Je **eerste kennismakingsbezoek is sowieso gratis**, een badge schaf je pas daarna aan.
+Je **eerste kennismakingsbezoek is sowieso gratis**, een badge schaf je pas daarna aan. Tijdens het kennismakingsbezoek kan je nog geen toestellen gebruiken, daarvoor moet je een badge aanschaffen.
 
 Breng bij een bezoek altijd je badge mee, zodat een medewerker hem kan controleren.
 
