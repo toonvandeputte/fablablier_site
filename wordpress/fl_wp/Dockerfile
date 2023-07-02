@@ -1,6 +1,6 @@
 FROM wordpress:6.2-php8.2
 
-WORKDIR /var/www/html/wordpress
+WORKDIR /var/www/html/wp
 
 RUN apt-get update
 
@@ -18,3 +18,6 @@ RUN locale-gen nl_NL.UTF-8
 ENV LANG nl_NL.UTF-8
 ENV LANGUAGE nl_NL:nl
 ENV LC_ALL nl_NL.UTF-8
+
+# Move the thing
+# RUN mv wordpress wp

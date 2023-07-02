@@ -28,17 +28,17 @@ services:
     volumes:
       - ./phpinfo.php:/var/www/html/phpinfo.php
       # - ./wp/favicon.ico:/var/www/html/favicon.ico
-      - ./wp/plugins:/var/www/html/wordpress/wp-content/plugins
-      - ./wp/themes/fablab:/var/www/html/wordpress/wp-content/themes/fablab
+      - ./wp/plugins:/var/www/html/wp/wp-content/plugins
+      - ./wp/themes/fablab:/var/www/html/wp/wp-content/themes/fablab
       - ./secrets:/var/www/secrets
-      - ./wp/wp-config.php:/var/www/html/wordpress/wp-config.php
+      - ./wp/wp-config.php:/var/www/html/wp/wp-config.php
       #index in webroot om wp install in subdir van main domein te bereiken
       # - ./wp/index.php:/var/www/html/index.php
       #htaccess files voor nice urls
       - ./wp/.htaccess:/var/www/html/.htaccess
-      # - ./wp/languages/woocommerce/woocommerce-nl.mo:/var/www/html/wordpress/wp-content/languages/woocommerce/woocommerce-nl_NL.mo
-      #- ./wp/.htaccess:/var/www/html/wordpress/.htaccess
-      - ./wp/uploads:/var/www/html/wordpress/wp-content/uploads
+      # - ./wp/languages/woocommerce/woocommerce-nl.mo:/var/www/html/wp/wp-content/languages/woocommerce/woocommerce-nl_NL.mo
+      #- ./wp/.htaccess:/var/www/html/wp/.htaccess
+      - ./wp/uploads:/var/www/html/wp/wp-content/uploads
       - ./server_config/php.ini:/usr/local/etc/php/conf.d/zzz_php.ini
       - ./server_logs/php_errors.log:/var/log/php_errors.log
     ports:

@@ -46,7 +46,19 @@ function add_theme_scripts()
    wp_enqueue_style( 'fullcalendar-print', get_stylesheet_directory_uri() . '/css/fullcalendar.print.min.css', array('fullcalendar'), '1.1', 'print');
 }
 
+function loadPageFirst() {
+    // get the actual category
+    $actualCategory = get_category( get_query_var('cat') );
+    // get the page with the same slug
+    $matchingPage = get_page_by_path( $actualCategory->slug );
 
+
+    if ( $matchingPage ) {
+        wp_safe_redirect( site_url( $actualCategory->slug ) );
+        exit();
+    }
+}
+add_filter( 'category_template', 'loadPageFirst' );
 add_action('admin_head', 'fix_svg');
 add_action('wp_enqueue_scripts', 'add_theme_scripts');
 
