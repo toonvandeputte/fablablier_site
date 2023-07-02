@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welkom! on Fablab Lier</title>
+    <link>/</link>
+    <description>Recent content in Welkom! on Fablab Lier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-BE</language>
+    <lastBuildDate>Mon, 21 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ender 3 v2 3D printer</title>
+      <link>/uitrusting/ender3v2/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/ender3v2/</guid>
+      <description>De Ender 3 v2 heeft een wat hoger printvolume dan de Ultimaker, en gebruikt een dunner filament.</description>
+    </item>
+    
+    <item>
+      <title>Mayku Formbox vacuformer</title>
+      <link>/uitrusting/vacuformer/</link>
+      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/vacuformer/</guid>
+      <description>Met de vacuformer kan je op basis van een vorm holle objecten (type blisterverpakking) maken.</description>
+    </item>
+    
+    <item>
+      <title>Bereikbaarheid</title>
+      <link>/contact/bereikbaarheid/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/bereikbaarheid/</guid>
+      <description> Sint-Ursula Middenschool Fietsenstalling Parkeerbeleid Lier  </description>
+    </item>
+    
+    <item>
+      <title>Full Spectrum Lasercutter</title>
+      <link>/uitrusting/lasercutter/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/lasercutter/</guid>
+      <description>Dit toestel is momenteel defect en kan niet gebruikt worden.</description>
+    </item>
+    
+    <item>
+      <title>XCarve</title>
+      <link>/uitrusting/xcarve/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/xcarve/</guid>
+      <description>De Xcarve laat toe om een ontwerp in hout uit te frezen.</description>
+    </item>
+    
+    <item>
+      <title>DS 460 Figuurzaagmachine</title>
+      <link>/uitrusting/figuurzaag/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/figuurzaag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KGS 80 Afkortzaag</title>
+      <link>/uitrusting/afkortzaag/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/afkortzaag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MBS 240 E Micro Bandzaag</title>
+      <link>/uitrusting/bandzaag/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/bandzaag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MICRO MH 550 Heteluchtpistool</title>
+      <link>/uitrusting/heteluchtpistool/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/heteluchtpistool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TBM 220 Kolomboormachine</title>
+      <link>/uitrusting/kolomboor/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/kolomboor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thermocut</title>
+      <link>/uitrusting/thermocut/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/thermocut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ultimaker 3D printers</title>
+      <link>/uitrusting/ultimaker/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/ultimaker/</guid>
+      <description>De Ultimakers zijn 3D-printers waarmee je driedimensionale objecten in kunststof kan maken.</description>
+    </item>
+    
+    <item>
+      <title>Badge</title>
+      <link>/gebruik/badge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/gebruik/badge/</guid>
+      <description>Je badge is je legitimatiebewijs. Ze is voorzien van je naam, en bevat een chip met een unieke identificatie.</description>
+    </item>
+    
+    <item>
+      <title>Huisreglement</title>
+      <link>/gebruik/huisreglement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/gebruik/huisreglement/</guid>
+      <description>Voor wie? Iedereen is welkom in het Fablab. We onderscheiden volgende groepen externe gebruikers:</description>
+    </item>
+    
+    <item>
+      <title>Materialen</title>
+      <link>/uitrusting/materialen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/uitrusting/materialen/</guid>
+      <description>Er is in het Fablab een selectie van materialen beschikbaar om je prototypes te bouwen.</description>
+    </item>
+    
+    <item>
+      <title>Wat is een Fablab?</title>
+      <link>/gebruik/wat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/gebruik/wat/</guid>
+      <description>Fablabs zijn werkplaatsen die open toegang bieden tot allerhande gereedschap en toestellen om dingen te maken.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<div>
+  {{ if ne .Page.Section .psection  }}
+<span class="f6 db">{{ humanize .Page.Section }}</span>
+{{ end }}
+  <h1 class="f3 near-black">
+    <a href="{{ .Page.Permalink }}">
+      {{ .Page.Title }}
+    </a>
+  </h1>
+  <div class="f5 lh-copy nested-copy-line-height"> <strong>
+<time datetime="{{ .Page.Date.Format "2006-01-02T15:04:05Z07:00" }}">
+
+    {{ .Page.Date.Day }} {{ index .maanden (sub .Page.Date.Month 1) }} {{ .Page.Date.Year }}
+
+</time></strong></div>
+  <div class="nested-links f5 lh-copy nested-copy-line-height">
+    {{ .Page.Summary  }}
+  </div>
+</div>

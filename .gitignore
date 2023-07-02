@@ -3,3 +3,12 @@
 public/*
 putlive.sh
 .DS_Store
+wordpress/dbdata
+wordpress/server_logs
+wordpress/twentytwentyhree_ref
+wordpress/secrets/*
+!wordpress/secrets/*.example.php
+wordpress/wp/plugins
+wordpress/wp/secrets/*
+!wordpress/wp/secrets/*.example.php
+wordpress/wp/uploads

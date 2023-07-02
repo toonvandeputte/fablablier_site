@@ -1,0 +1,17 @@
+{{ define "main" }}
+	<article class="pagecontent home f4 mid-gray lh-copy">
+		{{ .Content | markdownify }}
+		<div class="narrow">
+			<h2>Op onze site vind je:</h2>
+			<ul class="blocks">
+			{{ range .Site.Menus.main }}
+			{{ if or (not (eq .Name "Workshops" )) ( and ( eq .Name "Workshops") (.HasChildren) ) }}
+				<li>
+					<h3><a href="{{ .URL }}">{{ .Name }}</a></h3>
+				</li>
+			{{ end }}
+			{{ end }}
+			</ul>
+		</div>		
+	</article>
+{{ end }}

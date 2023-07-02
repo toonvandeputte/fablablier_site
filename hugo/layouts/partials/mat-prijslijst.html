@@ -1,0 +1,30 @@
+{{ $matscratch := newScratch }}
+{{ range $.Site.Data.materialen }}
+{{ $matscratch.Add "devices" (slice .device) }}
+{{ end }}
+
+{{ range uniq ($matscratch.Get "devices") }}
+{{ $device := . }}
+<table class="pricelist">
+<tr>
+	<th class="sectionttl" colspan = "2">{{ . }}</th>
+</tr>
+<tr>
+	<th>Materiaal</th><th>Prijs</th>
+</tr>
+	{{ range $.Site.Data.materialen }}
+<tr>
+	{{ if eq .device $device }}
+	<td><strong>{{ .name }}{{ with .thickness}} {{ . }}mm{{ end }}</strong>{{ with .dimensions}} ({{ with .width }}{{ . }}{{ end }}{{ with .height }}x{{ . }}{{ end }}mm){{ end }}
+	</td>
+	<td>
+	{{ with .price }}€ {{ printf "%5.2f" (div . 100) }}{{ end }}{{ with .unit }}/{{ . }}{{ end }}{{with .free}}gratis{{ end}}
+	
+	</td>
+	{{ end }}
+</tr>
+	{{ end }}
+</table>
+{{ end }}
+
+<script>console.log({{ $.Site.Data.materialen }});</script>
