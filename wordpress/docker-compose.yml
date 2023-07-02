@@ -1,0 +1,49 @@
+version: '2'
+
+services:
+  db:
+    container_name: fl_db
+    image: mariadb
+    restart: always
+    volumes:
+      - ./dbdump:/docker-entrypoint-initdb.d
+      - ./dbdata:/var/lib/mysql
+    ports:
+      - 8081:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: db17296
+      MYSQL_PASSWORD: 123
+      MYSQL_USER: db17296
+
+  wordpress:
+    container_name: fl_wp
+    build:
+        context: ./fl_wp/
+        dockerfile: Dockerfile
+    depends_on:
+      - db
+    image: fl_wp:5.7.2-php7.4
+    restart: always
+    volumes:
+      - ./phpinfo.php:/var/www/html/phpinfo.php
+      # - ./wp/favicon.ico:/var/www/html/favicon.ico
+      - ./wp/plugins:/var/www/html/wordpress/wp-content/plugins
+      - ./wp/themes/fablab:/var/www/html/wordpress/wp-content/themes/fablab
+      - ./secrets:/var/www/secrets
+      - ./wp/wp-config.php:/var/www/html/wordpress/wp-config.php
+      #index in webroot om wp install in subdir van main domein te bereiken
+      # - ./wp/index.php:/var/www/html/index.php
+      #htaccess files voor nice urls
+      - ./wp/.htaccess:/var/www/html/.htaccess
+      # - ./wp/languages/woocommerce/woocommerce-nl.mo:/var/www/html/wordpress/wp-content/languages/woocommerce/woocommerce-nl_NL.mo
+      #- ./wp/.htaccess:/var/www/html/wordpress/.htaccess
+      - ./wp/uploads:/var/www/html/wordpress/wp-content/uploads
+      - ./server_config/php.ini:/usr/local/etc/php/conf.d/zzz_php.ini
+      - ./server_logs/php_errors.log:/var/log/php_errors.log
+    ports:
+      - 80:80
+    #command: exec chown www-data:www-data /var/www/html/wp-content/ -R
+    environment:
+      VIRTUAL_HOST: be.fablablier.www
+      VIRTUAL_PORT: 80

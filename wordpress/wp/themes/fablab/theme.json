@@ -1,0 +1,81 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Primary",
+                    "slug": "primary",
+                    "color": "rgb( 232,142,219 )"
+                },
+                {
+                    "name": "Secondary",
+                    "slug": "secondary",
+                    "color": "rgb( 77,117,219 )"
+                },
+                {
+                    "name": "Contrast",
+                    "slug": "contrast",
+                    "color": "rgb( 0,0,0 )"
+                },
+                {
+                    "name": "Base",
+                    "slug": "base",
+                    "color": "rgb( 255,255,255 )"
+                },
+                {
+                    "name": "Tertiary",
+                    "slug": "tertiary",
+                    "color": "rgb( 255,218,0 )"
+                },
+                {
+                    "name": "Fablab Blue",
+                    "slug": "fablab-blue",
+                    "color": "rgb( 85,211,255 )"
+                },
+                {
+                    "name": "Fablab Dark Blue",
+                    "slug": "fablab-blue-dark",
+                    "color": "rgb( 77,117,219 )"
+                },
+                {
+                    "name": "Fablab Yellow",
+                    "slug": "fablab-yellow",
+                    "color": "rgb( 255,218,0 )"
+                },
+                {
+                    "name": "Fablab Red",
+                    "slug": "fablab-red",
+                    "color": "rgb( 239,80,80 )"
+                },
+                {
+                    "name": "Fablab Pink",
+                    "slug": "fablab-pink",
+                    "color": "rgb( 232,142,219 )"
+                },
+                {
+                    "name": "Fablab Green",
+                    "slug": "fablab-green",
+                    "color": "rgb( 146,221,80 )"
+                },
+                {
+                    "name": "Fablab Dark Green",
+                    "slug": "fablab-green-dark",
+                    "color": "rgb( 49,183,80 )"
+                },
+                {
+                    "name": "Fablab Purple",
+                    "slug": "fablab-purple",
+                    "color": "rgb( 80,66,80 )"
+                },
+                {
+                    "name": "Fablab Orange",
+                    "slug": "fablab-orange",
+                    "color": "rgb( 232,121,0 )"
+                }
+
+
+            ]
+        }
+    }
+}
