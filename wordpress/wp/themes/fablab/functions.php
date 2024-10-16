@@ -42,23 +42,22 @@ function add_theme_scripts()
     // wp_enqueue_script('fullcalendar', get_stylesheet_directory_uri() . '/js/fullcalendar/dist/index.global.min.js', array('jquery'), 1.1, true);
     wp_enqueue_script('gcal', get_stylesheet_directory_uri() . '/js/fullcalendar/gcal.min.js', array('fullcalendar'), 1.1, true);
     wp_enqueue_script('calendar', get_stylesheet_directory_uri() . '/js/calendar.js', array('fullcalendar'), 1.1, true);
-   wp_enqueue_style( 'fullcalendar', get_stylesheet_directory_uri() . '/css/fullcalendar.min.css', false, '1.1', 'screen');
-   wp_enqueue_style( 'fullcalendar-print', get_stylesheet_directory_uri() . '/css/fullcalendar.print.min.css', array('fullcalendar'), '1.1', 'print');
+    wp_enqueue_style('fullcalendar', get_stylesheet_directory_uri() . '/css/fullcalendar.min.css', false, '1.1', 'screen');
+    wp_enqueue_style('fullcalendar-print', get_stylesheet_directory_uri() . '/css/fullcalendar.print.min.css', array('fullcalendar'), '1.1', 'print');
+    wp_enqueue_style('header', get_stylesheet_directory_uri() . '/css/header.css', array(), '1.1', 'screen');
 }
 
-function loadPageFirst() {
+function loadPageFirst()
+{
     // get the actual category
-    $actualCategory = get_category( get_query_var('cat') );
+    $actualCategory = get_category(get_query_var('cat'));
     // get the page with the same slug
-    $matchingPage = get_page_by_path( $actualCategory->slug );
-
-
-    if ( $matchingPage ) {
-        wp_safe_redirect( site_url( $actualCategory->slug ) );
+    $matchingPage = get_page_by_path($actualCategory->slug);
+    if ($matchingPage) {
+        wp_safe_redirect(site_url($actualCategory->slug));
         exit();
     }
 }
-add_filter( 'category_template', 'loadPageFirst' );
+add_filter('category_template', 'loadPageFirst');
 add_action('admin_head', 'fix_svg');
 add_action('wp_enqueue_scripts', 'add_theme_scripts');
-
